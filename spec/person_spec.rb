@@ -46,7 +46,7 @@ RSpec.describe 'Person' do
 
     describe '#happiness=' do
       it 'allows a person to change their happiness' do
-        stella.happiness = 9
+        stella.happiness = 9        
         expect(stella.happiness).to eq(9)
       end
 
